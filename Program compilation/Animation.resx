@@ -117,8 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SpaceShip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SpaceShip.ICO;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picSpaceShip.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFlSURBVFhH7VTREoMgDPPT+TT/zJFCWOwVFJxvy12utNQk
+        erttf/yxiGPAV2EmKaVj3/eDQM9Z3XkFZkDjKMCbIUxYjUDCz38d4mSCzljnAM6c207uWTMfw0xEsB+g
+        3rewpX8MMzkFqCT8HHwlABH9HiLi2SLxDGYKQQJn+aEZvTFr5mOYKSpMAQYgcfdWADMk0MNwFEDP7DOX
+        Ua2/wAzCGgCMzDmD0Coo0N7UV73nTIzJJeB9h0ypX5XQKpL3YUKsEWnGHfZqDOKeNfM2TuI94lOjcg9G
+        rE8CNFGeI3pzVjUXYz1fogny7ElziqKi5z7NxVTPQzQTEjNPnffOpIa5EyISidD2fMWlA+eXAUYiEWyf
+        RF/GQwxDzAYApkP3AqyYA0uhoxAqNCU2+wVAH8BElJjxvz1ieazs3dkHsQNjpWnwUukf9sTObGhQPbif
+        62Yh3GIIt3OiuwuhO6O9S3ghsl5PYNs+s8gcV71amd4AAAAASUVORK5CYII=
+</value>
   </data>
+  <metadata name="tmrAuto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

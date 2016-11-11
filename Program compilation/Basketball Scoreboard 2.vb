@@ -12,9 +12,6 @@ REM Known errors: 'nil
 
 Public Class frmBasketball_Scoreboard_2
     Private Sub frmControlPanel_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        REM Make the scoreboard visible 
-        Dim myScoreboard As New frmBasketball_Scoreboard
-        myScoreboard.Show()
         REM Set control panel position
         Me.Left = 200
         Me.Top = 440

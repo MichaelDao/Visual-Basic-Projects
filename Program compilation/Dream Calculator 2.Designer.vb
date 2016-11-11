@@ -349,6 +349,7 @@ Partial Class frmDream_Calculator_2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(522, 608)
+        Me.ControlBox = False
         Me.Controls.Add(Me.lblWelcome)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.lblUserName)

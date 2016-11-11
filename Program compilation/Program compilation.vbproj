@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animation.Designer.vb">
+      <DependentUpon>Animation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Animation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Basketball Scoreboard 2.Designer.vb">
       <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
     </Compile>
@@ -82,6 +88,12 @@
       <DependentUpon>Basketball Scoreboard.vb</DependentUpon>
     </Compile>
     <Compile Include="Basketball Scoreboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Button Game.Designer.vb">
+      <DependentUpon>Button Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button Game.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dream Calculator 2.Designer.vb">
@@ -108,6 +120,12 @@
     <Compile Include="Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Message Boxes.Designer.vb">
+      <DependentUpon>Message Boxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Message Boxes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -123,14 +141,32 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Quiz.Designer.vb">
+      <DependentUpon>Quiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stopwatch.Designer.vb">
+      <DependentUpon>Stopwatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stopwatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Variables.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Animation.resx">
+      <DependentUpon>Animation.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Basketball Scoreboard 2.resx">
       <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Basketball Scoreboard.resx">
       <DependentUpon>Basketball Scoreboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Button Game.resx">
+      <DependentUpon>Button Game.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dream Calculator 2.resx">
       <DependentUpon>Dream Calculator 2.vb</DependentUpon>
@@ -144,11 +180,20 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Message Boxes.resx">
+      <DependentUpon>Message Boxes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stopwatch.resx">
+      <DependentUpon>Stopwatch.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +207,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpaceShip.ICO" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

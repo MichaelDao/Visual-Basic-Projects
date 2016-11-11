@@ -239,7 +239,7 @@ Partial Class frmBasketball_Scoreboard_2
         Me.Controls.Add(Me.lblHome2pt)
         Me.Controls.Add(Me.lbHomelft)
         Me.Name = "frmBasketball_Scoreboard_2"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Basketball Scoreboard 2"
         Me.ResumeLayout(False)
         Me.PerformLayout()

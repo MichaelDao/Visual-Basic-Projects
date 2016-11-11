@@ -313,6 +313,7 @@ Partial Class frmLCD_Demo
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(775, 537)
+        Me.ControlBox = False
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnTwelve)
