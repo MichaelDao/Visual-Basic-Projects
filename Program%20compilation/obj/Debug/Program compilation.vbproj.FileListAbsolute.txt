@@ -1,0 +1,22 @@
+C:\Users\Michael\AppData\Local\Temporary Projects\Program compilation\bin\Debug\Program compilation.exe.config
+D:\General Items\Desktop\Program compilation\Program compilation\bin\Debug\Program compilation.exe.config
+D:\General Items\Desktop\Program compilation\Program compilation\bin\Debug\Program compilation.exe
+D:\General Items\Desktop\Program compilation\Program compilation\bin\Debug\Program compilation.pdb
+D:\General Items\Desktop\Program compilation\Program compilation\bin\Debug\Program compilation.xml
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program compilation.vbprojResolveAssemblyReference.cache
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.Resources.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program compilation.vbproj.GenerateResource.Cache
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program compilation.exe
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program compilation.xml
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program compilation.pdb
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmLCD_Demo.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmMenu.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmDream_Calculator_2.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmDream_Calculator.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmBasketball_Scoreboard.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmBasketball_Scoreboard_2.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmQuiz.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmMessage_Boxes.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmStopwatch.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmAnimation.resources
+D:\General Items\Desktop\Program compilation\Program compilation\obj\Debug\Program_compilation.frmButton_Game.resources
