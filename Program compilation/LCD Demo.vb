@@ -2,8 +2,7 @@
     REM Liquid Crystal Display demo
     REM By Michael Dao
     REM Simulates a seven segment liquid crystal display
-    REM Started: 4/2/2013
-    REM Finished:
+    REM Started: 4/2/2014
     REM Known errors: 'nil 
 
     Private Sub btnQuit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnQuit.Click

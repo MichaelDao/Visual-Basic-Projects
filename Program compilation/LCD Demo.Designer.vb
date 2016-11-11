@@ -339,7 +339,8 @@ Partial Class frmLCD_Demo
         Me.Controls.Add(Me.lblTop)
         Me.Controls.Add(Me.lblTitle)
         Me.Name = "frmLCD_Demo"
-        Me.Text = "LCD_Demo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "LCD Demo"
         Me.ResumeLayout(False)
 
     End Sub

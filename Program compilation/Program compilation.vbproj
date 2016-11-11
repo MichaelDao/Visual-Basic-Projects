@@ -72,6 +72,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basketball Scoreboard 2.Designer.vb">
+      <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Basketball Scoreboard 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basketball Scoreboard.Designer.vb">
+      <DependentUpon>Basketball Scoreboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Basketball Scoreboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dream Calculator 2.Designer.vb">
+      <DependentUpon>Dream Calculator 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dream Calculator 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dream Calculator.Designer.vb">
+      <DependentUpon>Dream Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dream Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LCD Demo.Designer.vb">
       <DependentUpon>LCD Demo.vb</DependentUpon>
     </Compile>
@@ -99,8 +123,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Variables.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Basketball Scoreboard 2.resx">
+      <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basketball Scoreboard.resx">
+      <DependentUpon>Basketball Scoreboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dream Calculator 2.resx">
+      <DependentUpon>Dream Calculator 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dream Calculator.resx">
+      <DependentUpon>Dream Calculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LCD Demo.resx">
       <DependentUpon>LCD Demo.vb</DependentUpon>
     </EmbeddedResource>
