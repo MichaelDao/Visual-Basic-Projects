@@ -117,14 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Balloon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balloon1.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picChaser.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAFmSURBVFhH7ZSBboMwDET59Hwaf9b5bF8xjlMyBEObdunV
+        xBS/ayp1+dev0kte0Utrb7+kRfvHr1MHVhJYqGbriLzVFgvlI84pg+EIt2szr1S+YQhUHzmvDIYNg5nb
+        ws46vDKt66qbUyEyGDYEZm0Lu+jciSFoR4yVwbCNxqz9Qic67gBHjScwFSLD1Tq0X+hG5071M3wM0IHR
+        0lF4fr/QqcyrTycwDNGKANCG3Ra6lfFOuP5HSM3wYYAOjtZgyc3SGc4/qakA1QmMlk5NruCoGT4MAGAO
+        MVpy8w2NNcNRpwMQnqt9s32VG11tzaMdwGFH9qpC6NLhWwWMUFZCWRHsW3AIwCYPnwkxA4cdNVYV4giO
+        CijhqKfgFEPEWoXQb3o1nFI4HUIY5GY4tQvh1hMQA04DnOHy9HlwLwydD3AxnKqGzvYuUx5+tL9FETK6
+        vl0C89/dwI/D6R+TwJ47ASiCHwnwJ7QsX7h0L+6joYOwAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="SpaceShip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SpaceShip.ICO;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Balloon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balloon2.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="mnuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tmrGame.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>224, 17</value>
+  </metadata>
 </root>

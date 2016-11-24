@@ -117,14 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Balloon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balloon1.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SpaceShip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SpaceShip.ICO;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Balloon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Balloon2.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>OH NO the villain is going to blow up the finish line!
+
+You are the blue car and you must beat the evil red car in a race.
+Clicking the launch button when the lights go green will start your car.
+Clicking on the Go Faster button will make you briefly faster than the red car.
+</value>
   </data>
 </root>

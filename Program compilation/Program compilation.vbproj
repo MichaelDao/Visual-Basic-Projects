@@ -78,6 +78,12 @@
     <Compile Include="Animation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Balloon Chase.Designer.vb">
+      <DependentUpon>Balloon Chase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Balloon Chase.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Basketball Scoreboard 2.Designer.vb">
       <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
     </Compile>
@@ -96,6 +102,12 @@
     <Compile Include="Button Game.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dodge The Tomatoes.Designer.vb">
+      <DependentUpon>Dodge The Tomatoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dodge The Tomatoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dream Calculator 2.Designer.vb">
       <DependentUpon>Dream Calculator 2.vb</DependentUpon>
     </Compile>
@@ -106,6 +118,18 @@
       <DependentUpon>Dream Calculator.vb</DependentUpon>
     </Compile>
     <Compile Include="Dream Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Investment Calculator.Designer.vb">
+      <DependentUpon>Investment Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Investment Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jumper.Designer.vb">
+      <DependentUpon>Jumper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jumper.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LCD Demo.Designer.vb">
@@ -147,6 +171,24 @@
     <Compile Include="Quiz.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Racing Game 2.Designer.vb">
+      <DependentUpon>Racing Game 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Racing Game 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Racing Game.Designer.vb">
+      <DependentUpon>Racing Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Racing Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sandwich Shop.Designer.vb">
+      <DependentUpon>Sandwich Shop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sandwich Shop.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Stopwatch.Designer.vb">
       <DependentUpon>Stopwatch.vb</DependentUpon>
     </Compile>
@@ -159,6 +201,9 @@
     <EmbeddedResource Include="Animation.resx">
       <DependentUpon>Animation.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Balloon Chase.resx">
+      <DependentUpon>Balloon Chase.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Basketball Scoreboard 2.resx">
       <DependentUpon>Basketball Scoreboard 2.vb</DependentUpon>
     </EmbeddedResource>
@@ -168,11 +213,20 @@
     <EmbeddedResource Include="Button Game.resx">
       <DependentUpon>Button Game.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dodge The Tomatoes.resx">
+      <DependentUpon>Dodge The Tomatoes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dream Calculator 2.resx">
       <DependentUpon>Dream Calculator 2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dream Calculator.resx">
       <DependentUpon>Dream Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Investment Calculator.resx">
+      <DependentUpon>Investment Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jumper.resx">
+      <DependentUpon>Jumper.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LCD Demo.resx">
       <DependentUpon>LCD Demo.vb</DependentUpon>
@@ -185,12 +239,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Quiz.resx">
       <DependentUpon>Quiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Racing Game 2.resx">
+      <DependentUpon>Racing Game 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Racing Game.resx">
+      <DependentUpon>Racing Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sandwich Shop.resx">
+      <DependentUpon>Sandwich Shop.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Stopwatch.resx">
       <DependentUpon>Stopwatch.vb</DependentUpon>
@@ -210,6 +273,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SpaceShip.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balloon1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balloon2.ICO" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

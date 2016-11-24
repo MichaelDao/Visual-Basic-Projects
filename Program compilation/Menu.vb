@@ -1,7 +1,7 @@
 ﻿'Program compilation
 'created by Michael Dao
 'This is a compilation of all my programs made during highschool, they all helped me practice programming
-'Started: 11/11/2916
+'Started: 11/11/2016
 
 Public Class frmMenu
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -52,5 +52,41 @@ Public Class frmMenu
         'Button Game
         Me.Hide()
         frmButton_Game.Show()
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        'Balloon chase 
+        Me.Hide()
+        frmBalloon_Chase.Show()
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        'Investment Calculator
+        Me.Hide()
+        frmInvestment_Calculator.Show()
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        'Dodge the tomatoes
+        Me.Hide()
+        frmDodge_The_Tomatoes.Show()
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        'Sandwich Shop
+        Me.Hide()
+        frmSandwich_Shop.Show()
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        'Project 1: Racing Game
+        Me.Hide()
+        frmRacing_Game.Show()
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        'Project 1: Jumper
+        Me.Hide()
+        frmJumper.Show()
     End Sub
 End Class
