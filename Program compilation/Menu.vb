@@ -1,7 +1,7 @@
 ﻿'Program compilation
 'created by Michael Dao
 'This is a compilation of all my programs made during highschool, they all helped me practice programming
-Started: 11/11/2916
+'Started: 11/11/2916
 
 Public Class frmMenu
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
