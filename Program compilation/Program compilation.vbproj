@@ -96,10 +96,22 @@
     <Compile Include="Basketball Scoreboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Button Calculator.Designer.vb">
+      <DependentUpon>Button Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Button Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Button Game.Designer.vb">
       <DependentUpon>Button Game.vb</DependentUpon>
     </Compile>
     <Compile Include="Button Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Challenge The Computer.Designer.vb">
+      <DependentUpon>Challenge The Computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Challenge The Computer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dodge The Tomatoes.Designer.vb">
@@ -120,16 +132,16 @@
     <Compile Include="Dream Calculator.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Guessing Game.Designer.vb">
+      <DependentUpon>Guessing Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guessing Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Investment Calculator.Designer.vb">
       <DependentUpon>Investment Calculator.vb</DependentUpon>
     </Compile>
     <Compile Include="Investment Calculator.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Jumper.Designer.vb">
-      <DependentUpon>Jumper.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Jumper.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LCD Demo.Designer.vb">
@@ -195,6 +207,24 @@
     <Compile Include="Stopwatch.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Student Budget Calculator.Designer.vb">
+      <DependentUpon>Student Budget Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student Budget Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable Manager 2.Designer.vb">
+      <DependentUpon>Timetable Manager 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable Manager 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable Manager.Designer.vb">
+      <DependentUpon>Timetable Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Variables.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -210,8 +240,14 @@
     <EmbeddedResource Include="Basketball Scoreboard.resx">
       <DependentUpon>Basketball Scoreboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Button Calculator.resx">
+      <DependentUpon>Button Calculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Button Game.resx">
       <DependentUpon>Button Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Challenge The Computer.resx">
+      <DependentUpon>Challenge The Computer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dodge The Tomatoes.resx">
       <DependentUpon>Dodge The Tomatoes.vb</DependentUpon>
@@ -222,11 +258,11 @@
     <EmbeddedResource Include="Dream Calculator.resx">
       <DependentUpon>Dream Calculator.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Guessing Game.resx">
+      <DependentUpon>Guessing Game.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Investment Calculator.resx">
       <DependentUpon>Investment Calculator.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Jumper.resx">
-      <DependentUpon>Jumper.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LCD Demo.resx">
       <DependentUpon>LCD Demo.vb</DependentUpon>
@@ -257,6 +293,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Stopwatch.resx">
       <DependentUpon>Stopwatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Budget Calculator.resx">
+      <DependentUpon>Student Budget Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable Manager 2.resx">
+      <DependentUpon>Timetable Manager 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable Manager.resx">
+      <DependentUpon>Timetable Manager.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

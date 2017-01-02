@@ -84,9 +84,37 @@ Public Class frmMenu
         frmRacing_Game.Show()
     End Sub
 
-    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        'Project 1: Jumper
+    Private Sub Button14_Click_1(sender As Object, e As EventArgs) Handles Button14.Click
+        'Button Calculator
         Me.Hide()
-        frmJumper.Show()
+        frmButton_Calculator.Show()
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        'Guessing Game 
+        Me.Hide()
+        frmGuessing_Game.Show()
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        'Challenge the computer
+        Me.Hide()
+        frmChallenge_The_Computer.Show()
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        'Student Budget Calculator
+        Me.Hide()
+        frmStudent_Budget_Calculator.Show()
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        'Timetable Manger
+        Me.Hide()
+        frmTimetable_Manager.Show()
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+
     End Sub
 End Class
