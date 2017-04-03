@@ -1,4 +1,3 @@
-# First program compilation
-This is a simple program where i am compiling all of my work together that i made during highschool
+I learned programming through visual basic, although it was an awful language to work with, it helped me establish a foundation for my knowledge in code.
 
-It is currently still in development
+This is a simple program where i have compiled all my mini projects together, maybe it will be nostalgic to look at in the future.
