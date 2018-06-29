@@ -1,4 +1,2 @@
 # Visual basic compilation
-  I packed all the mini programs I made during highschool all into one convienient mene.
-
-  This is what got me into programming.
+I packed all the programs I worked on during highschool together, this was all made when I was learning how to code for the very first time.
